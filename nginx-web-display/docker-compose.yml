@@ -3,6 +3,6 @@ services:
   web:
     build: .
     ports:
-      - "8081:80"
+      - "80:80"
     volumes:
       - ./html:/usr/share/nginx/html
